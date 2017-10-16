@@ -7,24 +7,24 @@ mitigationSample-1.0.0.jar
 # Dependencies
 vosp-api-wrappers-java-17.9.4.7.jar which could be downloaded from the Veracode Help Center and install into the local maven repository of the build machine as:
 
-group: 'com.veracode.vosp.api.wrappers'
-name: 'vosp-api-wrappers-java'
-version: '17.9.4.7'
+group: com.veracode.vosp.api.wrappers
+name: vosp-api-wrappers-java
+version: 17\.9\.4\.7
 
 # Build
 gradlew assemble
 
 # Usage
-java -jar mitigationSample-1.0.0.jar <API ID> <API Key> <App Name>
+java -jar mitigationSample-1.0.0.jar &lt;API ID&gt; &lt;API Key&gt; &lt;App Name&gt;
 
-where <API ID> is a valid Veracode API Credential ID
-      <API Key> is a valid Veracode API Credential Key
-      <App Name> is a application name that can be accessed with the given credential
+where &lt;API ID&gt; is a valid Veracode API Credential ID
+      &lt;API Key&gt; is a valid Veracode API Credential Key
+      &lt;App Name&gt; is a application name that can be accessed with the given credential
 
 Note that the vosp-api-wrappers-java-17.9.4.7.jar must be present in the same directory of the mitigationSample-1.0.0.jar
 
 # Test
-Although some manual testing are done, there is no tests written for this project yet :(
+Although some manual testing are done, there is no tests written for this project yet.
 
 # More info
-I strong recommend posting any questions or comments about this project (or integration with Veracode Analysis Center Service in general) in the Veracode Community at https://community.veracode.com/s/ to reach a wider audiance. Rather than posting them here where I could very well be the only person that will ever read them.
+I recommend posting any questions or comments about this project (or integration with Veracode Analysis Center Service in general) in the Veracode Community at https://community.veracode.com/s/ to reach a wider audiance. Rather than posting them here where I could very well be the only person that will ever read them.
