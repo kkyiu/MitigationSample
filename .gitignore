@@ -1,0 +1,6 @@
+
+.classpath
+*.bin
+*.lock
+.project
+.settings/org.eclipse.buildship.core.prefs
