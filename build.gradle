@@ -6,11 +6,11 @@ targetCompatibility = '1.8'
 project.version = '1.0.0'
 
 repositories {
-    mavenLocal()
+    mavenCentral()
 }
 
 dependencies {
-    compile group: 'com.veracode.vosp.api.wrappers', name: 'vosp-api-wrappers-java', version: '17.9.4.7'
+    compile group: 'com.veracode.vosp.api.wrappers', name: 'vosp-api-wrappers-java', version: '17.10.4.8'
 }
 
 jar {

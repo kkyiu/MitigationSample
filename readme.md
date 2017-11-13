@@ -21,10 +21,10 @@ where &lt;API ID&gt; is a valid Veracode API Credential ID
       &lt;API Key&gt; is a valid Veracode API Credential Key
       &lt;App Name&gt; is a application name that can be accessed with the given credential
 
-Note that the vosp-api-wrappers-java-17.9.4.7.jar must be present in the same directory of the mitigationSample-1.0.0.jar
+Note that this project requires the vosp-api-wrappers-java-17.10.4.8.jar
 
 # Test
 Although some manual testing are done, there is no tests written for this project yet.
 
 # More info
-I recommend posting any questions or comments about this project (or integration with Veracode Analysis Center Service in general) in the Veracode Community at https://community.veracode.com/s/ to reach a wider audiance. Rather than posting them here where I could very well be the only person that will ever read them.
+I recommend posting any questions or comments about this project (or integration with Veracode Analysis Center Service in general) in the Veracode Community at https://community.veracode.com/s/ to reach a wider audience. Rather than posting them here where I could very well be the only person that will ever read them.
