@@ -5,11 +5,11 @@ This Java project utilizes the Veracode Web Service APIs to get a list of Flaws,
 mitigationSample-1.0.0.jar
 
 # Dependencies
-vosp-api-wrappers-java-17.9.4.7.jar which could be downloaded from the Veracode Help Center and install into the local maven repository of the build machine as:
+vosp-api-wrappers-java-17.10.4.8.jar which could be downloaded from the Veracode Help Center and install into the local maven repository of the build machine as:
 
 group: com.veracode.vosp.api.wrappers
 name: vosp-api-wrappers-java
-version: 17\.9\.4\.7
+version: 17\.10\.4\.8
 
 # Build
 gradlew assemble
